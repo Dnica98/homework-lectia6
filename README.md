@@ -1,1 +1,1 @@
-# homework-lectia6
+# homework-lesson6
