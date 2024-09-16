@@ -1,0 +1,71 @@
+:root{
+    font-size: 16px;
+}
+.dim1{
+    border: 1px solid rgb(7, 7, 7);
+    margin-left: 16px;
+    margin-right:32px;
+    margin-top:8px;
+    margin-bottom:32px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:32px;
+    padding-bottom:32px;
+    box-sizing: border-box;
+}
+
+.dim2{
+    p:first-child{
+        color: rgb(16, 118, 158);
+    }
+    
+    p:nth-child(3){
+        color:rgb(179, 17, 130);
+    }
+
+    p:last-child{
+        color:rgb(19, 148, 36);
+    }
+
+}
+
+.dim3{
+    border: 1px solid black;
+    height: 75px;
+    width: 75px;
+    p:hover{
+        border:1px solid red;
+    }
+    
+}
+
+.dim4{
+    height:50px;
+    width: 250px;
+
+}
+
+.dim5{
+    height:50%;
+    width:25%;
+}
+
+body{
+    
+    h3:before{
+        content:'Omisiune ';
+    }
+    h3:after{
+        content:' dupa';
+    }
+}
+.dim6{
+    font-size: 2rem;
+}
+.dim7{
+    font-size: 2em;
+}
+
+.dim8{
+    width: 75vw;
+}
